@@ -48,6 +48,17 @@ span {
 
 
 /* 5. Desktop */
+header {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    background: url('../img/fondo_hero.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: bottom;
+}
 
 /* 6. Estilos responsive Tablet */
 @media screen and(min-width:768px) and (max-width:1068px) {}
