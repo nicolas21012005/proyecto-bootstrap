@@ -332,6 +332,131 @@ section {
     color: #0d1b39;
 }
 
+#experiences {
+    width: 100%;
+    padding: 140px 0;
+    position: relative;
+}
+
+#experiences .cont-img {
+    position: relative;
+    left: -20px;
+}
+
+#experiences .cont-img img {
+    box-shadow: -15px 16px 15px -10px #c49953;
+}
+
+#experiences .cont-img::before {
+    content: "";
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    top: -12%;
+    z-index: -1;
+    border-radius: 20px;
+    background: #f7f7f7;
+}
+
+#experiences .cont-img::after {
+    content: "";
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    z-index: -1;
+    border-radius: 20px;
+    background: #f7f7f7;
+    top: 70px;
+    right: 2%;
+}
+
+#experiences .cont-info {
+    padding: 20px 60px 0 0;
+}
+
+#experiences .cont-info h3 {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+#experiences .cont-info h2 {
+    font-size: var(--fs-title2);
+    font-weight: 700;
+}
+
+#experiences a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#experiences a i {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#experiences a:hover i {
+    margin-left: 15px;
+}
+
+#experiences p {
+    color: var(--dark-color);
+    margin-top: 20px;
+    font-size: var(--fs-text);
+}
+
+
+/*  materials */
+
+#materials .cont-info {
+    padding: 20px 60px 0 20px;
+    width: 45%;
+
+}
+
+#materials .cont-info h3 {
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+#materials .cont-info h2 {
+    font-size: var(--fs-title2);
+    font-weight: 700;
+}
+
+#materials a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#materials a i {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#materials a:hover i {
+    margin-left: 15px;
+}
+
+#materials p {
+    color: var(--dark-color);
+    margin-top: 20px;
+    font-size: var(--fs-text);
+}
+
+#materials .cont-img {
+    position: relative;
+    width: 55%;
+}
+
+#materials .cont-img .left {
+    position: absolute;
+}
+
+#materials .cont-img .right {
+    position: absolute;
+    left: 37%;
+}
+
 /* 6. Estilos responsive Tablet */
 @media screen and(min-width:768px) and (max-width:1068px) {}
 
