@@ -246,6 +246,92 @@ section {
     border: none;
 }
 
+#products .card-product {
+    margin: 0 15px;
+}
+
+#products .card-product .cont-img {
+    position: relative;
+    width: 100%;
+    min-height: 250px;
+    border-radius: 20px 20px 0 0;
+    background: #e6e6e6;
+}
+
+#products .cont-img img {
+    margin: 0 auto;
+    width: 220px;
+    left: 0;
+    right: 0;
+    top: -55px;
+    position: absolute;
+}
+
+#products .slick-list {
+    padding: 150px 0;
+}
+
+#products .cont-info {
+    text-align: left;
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--white-color);
+}
+
+#products .cont-info p.category {
+    font-size: var(--fs-text);
+    color: #8d8d8d;
+}
+
+#products .cont-info h3 {
+    font-size: 22px;
+    color: var(--dark-color);
+    font-weight: 700;
+}
+
+#products .stars i {
+    color: #f6b76f;
+}
+
+#products .stars {
+    margin-bottom: 30px;
+}
+
+#products .card-product h4 {
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    margin: 0;
+}
+
+#products .card-product span {
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+
+#products .card-product button {
+    background-color: #0d1b39;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    color: var(--white-color);
+}
+
+#products .slick-arrow {
+    background-color: var(--white-color);
+    border: 1px solid #dbdada;
+    z-index: 999;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#products .slick-arrow::before {
+    color: #0d1b39;
+}
+
 /* 6. Estilos responsive Tablet */
 @media screen and(min-width:768px) and (max-width:1068px) {}
 
