@@ -786,7 +786,7 @@ footer .terms .left {
     }
 
     #products .cont-img img {
-        width: 100px;
+        max-width: 20px;
         top: -20px;
     }
 
