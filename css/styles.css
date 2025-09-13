@@ -513,13 +513,17 @@ section {
 
 #reviews .card-review {
     position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    width: 100%;
 }
 
 #reviews .card-review .cont-info {
     background: var(--white-color);
     position: absolute;
+    box-sizing: border-box;
     width: 90%;
-    bottom: 20px;
+    bottom: 0;
     left: 8%;
     right: 8%;
     border-radius: 30px;
@@ -528,6 +532,7 @@ section {
     padding-top: 50px;
     padding-left: 30px;
     padding-right: 30px;
+    transform: translateX(-50%);
 }
 
 #reviews .card-review .cont-info img {
@@ -538,6 +543,7 @@ section {
     right: 0;
     border: 10px solid var(--white-color);
     border-radius: 50%;
+    width: 100%;
 }
 
 #reviews .cont-info h4 {
@@ -665,7 +671,7 @@ footer .terms .left {
     }
 
     #reviews .card-review .cont-info {
-        width: 95%;
+        width: 80%;
         left: 2.5%;
         right: 2.5%;
         padding-left: 10px;
@@ -705,7 +711,7 @@ footer .terms .left {
 }
 
 /* Responsive Smartphone */
-@media screen and (max-width: 767px) {
+@media screen and (min-width:320px) and (max-width: 767px) {
     header {
         height: 80vh;
         padding-top: 10px;
@@ -743,6 +749,7 @@ footer .terms .left {
     #reviews,
     footer {
         padding: 40px 5px;
+        align-items: center;
     }
 
     #experiences {
@@ -784,7 +791,7 @@ footer .terms .left {
     }
 
     #reviews .card-review .cont-info {
-        width: 98%;
+        width: 80%;
         left: 1%;
         right: 1%;
         padding-left: 5px;
@@ -797,3 +804,19 @@ footer .terms .left {
         font-size: 12px;
     }
 }
+
+
+
+
+
+/* 6. Estilos responsive Tablet */
+/* @media screen  and (max-width:1068px) {
+    header {
+        height: 120vh;
+        font-size: var(--fs-title3);
+
+    }
+} */
+
+/* 7. Estilos responsive SmartPhone */
+/* @media screen (max-width:767px) {} */
