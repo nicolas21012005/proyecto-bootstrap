@@ -488,8 +488,93 @@ section {
     box-shadow: -3px 16px 15px -10px #cb8139;
 }
 
-/* reviews sec ti */
 #reviews {
+    width: 100%;
+    position: relative;
+    padding: 90px 0;
+    text-align: center;
+}
+
+#reviews h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+#reviews h2 {
+    font-size: var(--fs-title2);
+    font-weight: 700;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    color: var(--dark-color);
+    text-transform: capitalize;
+}
+
+#reviews .card-review {
+    position: relative;
+}
+
+#reviews .card-review .cont-info {
+    background: white;
+    position: absolute;
+    width: 90%;
+    bottom: 20px;
+    border-radius: 30px;
+    left: 4%;
+    padding-bottom: 5%;
+    padding-top: 50px;
+}
+
+#reviews .card-review .cont-info img {
+    position: absolute;
+    top: -35px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border: 10px solid white;
+    border-radius: 50%;
+
+}
+
+#reviews .card-review .cont-info h4 {
+    font-size: var(--fs-title3);
+    color: var(--dark-color);
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#reviews .card-review .cont-info h5 {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+#reviews .card-review .cont-info .stars {
+    color: #f6b76f;
+    margin-top: 30px;
+}
+
+#reviews .card-review .cont-info .stars i:last-child {
+    opacity: 50%;
+}
+
+#reviews .slick-arrow {
+    width: 50px;
+    height: 50px;
+    z-index: 999;
+    border-radius: 50%;
+    border: 1px solid #dbdada;
+    color: #0d1b39;
+}
+
+#reviews .slick-arrow::before {
+    color: #0d1b39;
+}
+
+
+/* reviews sec ti */
+/* #reviews {
     width: 100%;
     position: relative;
     padding: 90px 0;
@@ -584,7 +669,7 @@ section {
 
 #reviews .slick-arrow::before {
     color: #0d1b39;
-}
+} */
 
 /* ESTILOS DEL FOOTER */
 

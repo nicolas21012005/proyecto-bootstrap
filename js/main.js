@@ -43,7 +43,7 @@ $(document).ready(function () {
         infinite: true,
         arrows: true,
         speed: 300,
-        slidesToShow: 2,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 2000,
@@ -76,4 +76,5 @@ $(document).ready(function () {
             // instead of a settings object
         ]
     });
+    AOS.init();
 })
